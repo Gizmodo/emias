@@ -1,0 +1,24 @@
+{
+  "name": "emias",
+  "version": "1.0.0",
+  "description": "EMIAS Mock Server",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "Sergey Smirnov",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "express-basic-auth": "^1.2.1",
+    "express-slow-down": "^1.4.0",
+    "express-winston": "^4.2.0",
+    "morgan": "^1.10.0",
+    "morgan-json": "^1.1.0",
+    "winston": "^3.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
