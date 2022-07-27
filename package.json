@@ -4,7 +4,7 @@
   "description": "EMIAS Mock Server",
   "main": "index.js",
   "scripts": {
-    "server": "nodemon index.js"
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "Sergey Smirnov",
@@ -16,8 +16,5 @@
     "morgan": "^1.10.0",
     "morgan-json": "^1.1.0",
     "winston": "^3.6.0"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.15"
   }
 }
