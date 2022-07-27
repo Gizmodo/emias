@@ -4,7 +4,7 @@ const logger = require('./log/logger')
 const httpLogger = require('./log/httpLogger')
 
 const app = express()
-const httpPort = 8080
+const httpPort = process.env.PORT || 80
 const isUseAuth = false
 
 app.use(express.json())
